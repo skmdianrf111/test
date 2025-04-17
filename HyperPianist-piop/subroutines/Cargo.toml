@@ -33,7 +33,7 @@ ark-bls12-377 = "0.4"
 ark-bn254 = "0.4"
 nalgebra = "0.32"
 ark-transcript = "0.0.3"
-merlin = "3.0"
+
 
 # # Benchmarks
 # [[bench]]

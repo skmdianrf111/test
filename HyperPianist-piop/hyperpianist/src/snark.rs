@@ -314,7 +314,7 @@ where
         let start = start_timer!(|| "hyperplonk proving");
         let mut transcript = IOPTranscript::<E::ScalarField>::new(b"hyperplonk");
 
-        prover_sanity_check(&pk.params, pub_input, witnesses)?;
+        prover_sanity_check(&pk.params, pub_input, witnesses)?;//检查输入有效性
 
         // witness assignment of length 2^n
         let num_vars = pk.params.num_variables();
